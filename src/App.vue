@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="card flex justify-content-center">
+    <div class="flex justify-center">
       <Button
         type="button"
         label="Search"
@@ -8,6 +8,8 @@
         :loading="loading"
         @click="load"
       />
+
+      <Button label="Success" severity="success" />
     </div>
   </div>
 </template>
